@@ -18,6 +18,7 @@ public class BoardService {
 
     @Transactional
     public Board create(Board createVO) {
+    	
         return boardRepository.save(createVO);
     }
 

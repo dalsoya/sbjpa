@@ -69,6 +69,7 @@ public class BoardApiController {
         return response;
     }
 
+
     @GetMapping("/api/post/index")
     public BoardResponseDto post_index(int page) {
         try {
