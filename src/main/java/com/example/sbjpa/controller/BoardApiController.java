@@ -74,6 +74,9 @@ public class BoardApiController {
     public BoardResponseDto post_index(int page) {
         try {
             List<Board> boards;
+            
+            
+            
             int offset;
 
             if (page == 1) {

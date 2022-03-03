@@ -32,6 +32,8 @@ public class UserApiContriller {
 	public ResponseDto<Integer> login(@RequestBody User user, HttpSession session) {
 		User principal = userService.login(user);
 
+		
+		
 		System.out.println(principal);
 
 		if (principal != null) {
